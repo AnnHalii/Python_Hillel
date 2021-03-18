@@ -6,11 +6,11 @@ if len(password) <= 8:
     print(f'Invalid')
 elif not any(z in sign for z in password):
     print('Invalid')
-elif not any([x.isdigit() for x in password]):
+elif password.isdigit():
     print('Invalid')
-elif not any([y.isalpha() for y in password]):
+elif password.isalpha():
     print('Invalid')
-elif not any([i.isupper() for i in password]):
+elif password.isupper():
     print('Invalid')
 else:
     print('Accepted')
