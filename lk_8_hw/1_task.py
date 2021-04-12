@@ -1,7 +1,8 @@
 nums = [61, 228, 9]
 
 
-biggest_num = lambda x: ''.join(sorted(map(str, x), reverse=True))
-print(biggest_num(nums))
+def biggest_num(list_of_nums):
+    return ''.join(sorted(map(str, list_of_nums), reverse=True))
 
-assert biggest_num(nums) == '961228'
+
+print(biggest_num(nums))
