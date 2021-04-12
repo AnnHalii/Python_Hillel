@@ -1,4 +1,5 @@
 import json
+
 def answer_questions(file_path):
     with open(file_path) as file:
         data = json.load(file)
