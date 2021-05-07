@@ -1,7 +1,7 @@
 def parse(string):
     b = 0
     res = []
-    for i in list(string):
+    for i in string:
         if i == 'i':
             b += 1
         elif i == 'd':
